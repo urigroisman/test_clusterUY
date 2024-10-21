@@ -1,0 +1,10 @@
+N = 4000
+arme A
+arme b
+arme C
+Tiempo para la multiplicación manual:
+216.589781 seconds (11.35 k allocations: 122.957 MiB, 0.03% gc time, 0.01% compilation time)
+991.0913115368476
+Tiempo usando LinearAlgebra (*):
+  1.339358 seconds (2.13 M allocations: 267.497 MiB, 1.61% gc time, 68.92% compilation time)
+991.091311536845
